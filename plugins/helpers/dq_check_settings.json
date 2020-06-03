@@ -1,0 +1,36 @@
+{
+    "dq_checks": [
+        {
+            "check_sql": "SELECT COUNT (*) FROM usa.city_state_travelers_entry WHERE arrival_date = '{}'", 
+            "execution_date": "TRUE",
+            "expected_result": "NOT EMPTY"
+        },
+        {
+            "check_sql": "SELECT COUNT (*) FROM usa.usa_port", 
+            "execution_date": "FALSE",
+            "expected_result": "NOT EMPTY"
+        },
+        {
+            "check_sql": "SELECT COUNT (*) FROM usa.travel_way",
+            "execution_date": "FALSE", 
+            "expected_result": "NOT EMPTY"
+        },
+        {
+            "check_sql": "SELECT COUNT (*) FROM usa.usa_port", 
+            "execution_date": "FALSE",
+            "expected_result": "NOT EMPTY"
+        },
+        {
+            "check_sql": "SELECT COUNT (*) FROM usa.visa_code", 
+            "execution_date": "FALSE",
+            "expected_result": "NOT EMPTY"
+        },
+        {
+            "check_sql": "SELECT COUNT (*) FROM usa.arrival_date WHERE arrival_date = '{}'", 
+            "execution_date": "TRUE",
+            "expected_result": "NOT EMPTY"
+        }
+    ]
+}
+
+
