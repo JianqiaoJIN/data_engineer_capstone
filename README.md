@@ -42,7 +42,7 @@ The I94 Immigration Data comes from the US National Tourism and Trade Office and
 | i94visa | visa_code | INT | encoded |
 | i94mode | traval_way | INT | encoded | 
 | - | arrival_day | INT | additional added |
-| |  | |  | 
+
 
 #### Exploration Result 
 - The data only gives us the tourist information in April, 2016. 
@@ -99,7 +99,7 @@ I use Amazon S3 service to store the cleaned and partitioned I94 Immigration Dat
 ![Fig 1: immigration_staging_day](plots/city_state_travelers_entry.png)
 - dimension table: 
     - usa.usa_port
-![Fig 2: usa_port](plots/usa_port.png)
+![Fig 2: usa_port](plots/usa_port.png = 50x50)
     - usa.travel_way
 ![Fig 3: travel_way](plots/travel_way.png)
     - usa.visa_code
