@@ -99,15 +99,10 @@ I use Amazon S3 service to store the cleaned and partitioned I94 Immigration Dat
 <img src="plots/city_state_travelers_entry.png" alt="immigration_staging_day" width = "350"/>
 
 - dimension table: 
-    - usa.usa_port  
-<img src="plots/usa_port.png" alt="usa_port" width = "300"/>
-    - usa.travel_way  
-<img src="plots/travel_way.png" alt="travel_way" width = "300"/>
-    - usa.visa_code  
-<img src="plots/visa_code.png" alt="visa_code" width = "300"/>
-    - usa.i94country_code  
-<img src="plots/country_code.png" alt="country_code" width = "300"/>
-    - usa.arrival_date  
+<img src="plots/usa_port.png" alt="usa_port" width = "300"/> 
+<img src="plots/travel_way.png" alt="travel_way" width = "300"/> 
+<img src="plots/visa_code.png" alt="visa_code" width = "300"/>  
+<img src="plots/country_code.png" alt="country_code" width = "300"/> 
 <img src="plots/arrival_date.png" alt="arrival_date" width = "300"/> 
 
 ### Create a data warehouse
